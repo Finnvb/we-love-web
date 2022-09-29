@@ -2,10 +2,10 @@ import createClient from '$lib/prismicClient'
 
 export async function load({ fetch, request }) {
 	const client = createClient({ fetch, request });
-	const document = await client.getAllByType('blog-finn');
+	const document = await client.getAllByType('blogpost');
 
 	if (document) {
-		return { document };
+		return {document};
 	}
 
 	error(404, 'Not found');
