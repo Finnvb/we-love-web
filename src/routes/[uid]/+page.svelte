@@ -2,7 +2,7 @@
 	export let data;
 	import * as prismicH from "@prismicio/helpers";
 
-    console.log(data)
+	// console.log(data)
 
 	import Header from "$lib/components/Header.svelte";
 	// import Footer from "$lib/components/Footer.svelte";
@@ -12,10 +12,29 @@
 <!-- <Header  /> -->
 
 <main>
-	<section class="detailcard">
-		<div class="image-container">
+
+		
 			<h2>{@html prismicH.asHTML(data.title)}</h2>
-			<!-- <img src="/assets/images/{data.uid}.jpg" alt="profilephoto" /> -->
-		</div>
-        </section>
-        </main>
+			<p>{@html prismicH.asHTML(data.date)}</p>
+
+			<img src={data.image.url} alt="we-love-web-img" />
+	
+		<p>{@html prismicH.asHTML(data.content)}</p>
+
+</main>
+
+<style>
+	img {
+		width: 300px;
+		height: 100%;
+	}
+
+	main{
+		margin-top: 1rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		
+	}
+</style>

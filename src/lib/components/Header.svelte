@@ -7,9 +7,7 @@
 <header>
     <h1>{name}</h1>
   
-  
-  
-      
+    <a href="/">Home</a>
   </header>
   
  
@@ -19,11 +17,26 @@
     header {
       display: flex;
       justify-content: space-between;
+      align-items: center;
       color: #ffffff;
       font-weight: bold;
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       padding: 1rem;
-  background-color: black;
+  background-color: #3ab97a;
+    }
+
+    a{
+      text-decoration: none;
+      background-color: #2b895a;
+      padding: 1rem;
+      color: #ffffff;
+      border-radius: 0.5rem;
+      font-size: 1rem;
+
+    }
+
+    a:hover{
+      background-color: #226845;
     }
   
   </style>
