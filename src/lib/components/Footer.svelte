@@ -20,7 +20,7 @@
         margin-top: 1rem;
         padding: 1.5rem;
     background-color: #16462e;
-    /* position: absolute; */
+ 
     bottom: 0;
     width: 100%;
       }
