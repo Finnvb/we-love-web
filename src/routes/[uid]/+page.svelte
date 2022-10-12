@@ -19,7 +19,7 @@
 
 			<img src={data.image.url} alt="we-love-web-img" />
 	
-		<p>{@html prismicH.asHTML(data.content)}</p>
+		<article >{@html prismicH.asHTML(data.content)}</article>
 
 </main>
 
@@ -29,11 +29,29 @@
 	}
 
 	main{
-		margin-top: 1rem;
+		margin:2rem 0;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		gap: 1.5rem;
+		color: #38ad72;
 		
 	}
+
+	article {
+	
+		line-height: 150%;
+		width: 40rem;
+		font-size: 1rem;
+	
+		/* color: #ffffff; */
+		
+	}
+
+
+	a{
+		text-decoration: none;
+	}
+
 </style>

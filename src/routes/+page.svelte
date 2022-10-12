@@ -25,23 +25,25 @@
     {/each}
     
 
-
-
 </main>
 
 <style>
     img {
         width: 250px;
         height: 100%;
+        border: 4px solid #16462e;
     }
     main {
         display: flex;
         justify-content: center;
+        align-items: center;
         flex-wrap: wrap;
-        gap: 2rem;
+        gap: 3rem;
         margin: 2rem 0;
 
     }
+
+
 
     ul {
         display: flex;
@@ -65,4 +67,7 @@
         cursor: pointer;
         color: #ffffff;
     }
+
+ 
+
 </style>
