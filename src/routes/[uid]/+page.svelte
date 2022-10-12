@@ -4,12 +4,9 @@
 
 	// console.log(data)
 
-	import Header from "$lib/components/Header.svelte";
-	// import Footer from "$lib/components/Footer.svelte";
-	// import { text } from "svelte/internal";
+
 </script>
 
-<!-- <Header  /> -->
 
 <main>
 
@@ -44,14 +41,9 @@
 		line-height: 150%;
 		width: 40rem;
 		font-size: 1rem;
-	
-		/* color: #ffffff; */
+
 		
 	}
 
-
-	a{
-		text-decoration: none;
-	}
 
 </style>
