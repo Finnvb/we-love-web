@@ -11,6 +11,8 @@
 ## 📝 Beschrijving
 Dit is mijn blog voor de we ❤️ web sessies van gastsprekers. Hier kan je alle talks terugvinden en erover lezen.
 
+[Live](https://we-love-web-indol.vercel.app/)
+
 ## 🎩 Kenmerken
 * 💀 HTML
 * 😀 CSS
