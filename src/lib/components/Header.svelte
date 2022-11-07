@@ -37,8 +37,12 @@
 
     a:hover{
       background-color: #226845;
+      cursor: pointer;
     }
 
+    h1:hover{
+      cursor:default;
+    }
 
     @media(max-width:40rem){
 
