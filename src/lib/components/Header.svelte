@@ -40,9 +40,6 @@
       cursor: pointer;
     }
 
-    h1:hover{
-      cursor:default;
-    }
 
     @media(max-width:40rem){
 
