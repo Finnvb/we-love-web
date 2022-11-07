@@ -32,6 +32,7 @@
         width: 250px;
         height: 100%;
         border: 4px solid #16462e;
+       
     }
     main {
         display: flex;
@@ -39,7 +40,7 @@
         align-items: center;
         flex-wrap: wrap;
         gap: 3rem;
-        margin: 2rem 0;
+        margin: 3rem 0;
 
     }
 
@@ -68,6 +69,25 @@
         color: #ffffff;
     }
 
+
+    @media(max-width:40rem){
+
+        article{
+            width: 15rem;
+            height: 15rem;
+        }
+
+        img{
+            width: 180px;
+            height: 150px;
+        }
+
+        li{
+            font-size: 0.8rem;
+            text-align: center;
+        }
+ 
+    }
  
 
 </style>

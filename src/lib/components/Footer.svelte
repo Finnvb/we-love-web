@@ -17,12 +17,18 @@
         display: flex;
         justify-content: center;
         color: #ffffff;
-        margin-top: 1rem;
         padding: 1.5rem;
-    background-color: #16462e;
- 
-    bottom: 0;
-    width: 100%;
+        background-color: #16462e;
+        bottom: 0;
+        width: 100%;
+      }
+
+
+      @media(max-width:40rem){
+
+        p{
+          font-size: 0.8rem;
+        }
       }
     
     </style>

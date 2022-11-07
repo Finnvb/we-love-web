@@ -38,5 +38,18 @@
     a:hover{
       background-color: #226845;
     }
+
+
+    @media(max-width:40rem){
+
+h1{
+  font-size: 1.2rem;
+}
+
+a{
+  font-size: 0.8rem;
+  padding: 0.6rem;
+}
+}
   
   </style>

@@ -23,6 +23,7 @@
 <style>
 	img {
 		width: 30%;
+		
 	}
 
 	main{
@@ -31,8 +32,8 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		gap: 1.5rem;
-		color: #38ad72;
+		gap: 2rem;
+		color: #FFFFFF;
 		
 	}
 
@@ -44,6 +45,29 @@
 
 		
 	}
+
+
+	@media(max-width:40rem){
+
+			img {
+			width: 80%;
+			
+		}
+
+		article {
+		
+		line-height: 150%;
+		width: 20rem;
+		font-size: 1rem;
+		
+	}
+
+	h2{
+		font-size: 0.9rem;
+		text-align: center;
+	}
+}
+
 
 
 </style>
